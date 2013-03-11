@@ -1,0 +1,24 @@
+$baseFontFamily: Oxgyen;
+@import url(http://fonts.googleapis.com/css?family=Oxgyen);
+
+$btnPrimaryBackground: green;
+$navbarBackgroundHighlight: black;
+$navbarBackground: pink;
+
+@import 'bootstrap';
+body {
+	padding-top:60px;
+}
+@import 'bootstrap-responsive';
+
+
+.navbar-inner{
+	@include box-shadow (none !important);
+	border: 0;
+}
+.footer{ 
+	margin-top:50px;
+	text-transform: uppercase;
+	color: $grayLight;
+
+}
